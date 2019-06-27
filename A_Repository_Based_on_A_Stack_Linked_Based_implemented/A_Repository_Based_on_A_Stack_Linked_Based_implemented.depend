@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1522591603 source:d:\courses\datastructures_phd-waleed\codes_msa\11\a_repository_based_on_a_stack_linked_based_implemented\main.c
+	<stdio.h>
+	<stdlib.h>
+

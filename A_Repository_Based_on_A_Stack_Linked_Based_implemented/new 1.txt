@@ -1,0 +1,43 @@
+queue_errors queue_push(queue *p_q,node_data*p_data)
+{
+	queue_errors b_ret_val=_no_errors;
+	if((p_q != NULL) && (p_data != NULL))
+	{
+		if(p_q-> queue_current_size < p_q->queue_max_size)
+		{
+			queue_node *pn= (queue_node* )malloc(sizeof(queue_node));
+			if(pn != NULL)
+			{
+				pn->p_next=p_q->q_last;
+				p_q->q_last=(void *)pn;  //test pq.qlast.data
+				bool_t copying_res=memcopy((ecore_u8 *)&(p_q->q_last->data) ,(ecore_u8 *) p_data,sizeof(queue_node));
+				if(copying_res == E_TRUE)
+				{
+					//donothing   //test later
+				}
+				else
+				{
+					b_ret_val=_copying_error;
+				}
+
+				if(p_q->q_first == NULL)
+				{
+					p_q->q_first=(void *)pn;  //test
+				}
+
+			}
+			else
+			{
+				b_ret_val=_internal_mem_error;
+			}
+		}
+		else
+		{
+			b_ret_val=_queue_full;
+		}
+	}
+	else
+	{
+		b_ret_val = _invalid_parameters;
+	}
+}
