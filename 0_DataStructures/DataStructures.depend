@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1564126421 source:d:\msa\2b_or_!2b\algo\d.s_and_algorithms\0_datastructures\main.c
+	"includes.h"
+
+1564167537 d:\msa\2b_or_!2b\algo\d.s_and_algorithms\0_datastructures\includes.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdint.h>
+	<stdbool.h>
+	"Stack_ArrBased.h"
+
+1564171352 d:\msa\2b_or_!2b\algo\d.s_and_algorithms\0_datastructures\stack_arrbased.h
+	"includes.h"
+
+1564167537 source:d:\msa\2b_or_!2b\algo\d.s_and_algorithms\0_datastructures\stack_arrbased.c
+	"Stack_ArrBased.h"
+

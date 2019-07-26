@@ -31,6 +31,11 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Stack_ArrBased.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Stack_ArrBased.h" />
+		<Unit filename="includes.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
