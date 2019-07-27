@@ -35,6 +35,14 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Stack_ArrBased.h" />
+		<Unit filename="Stack_LinkBased.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Stack_LinkBased.h" />
+		<Unit filename="TowersOfHanoiGame.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="TowersOfHanoiGame.h" />
 		<Unit filename="includes.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />

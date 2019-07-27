@@ -1,7 +1,19 @@
 #include "includes.h"
-//revisiting the data-structures course
+/*
+*********************************************
+*   Mahmoud Saad @ZeroX86                   *
+*   revisiting the data-structures course   *
+*********************************************
+*****NOTES_NOTES_NOTES_NOTES_NOTES_NOTES*****
+*********************************************
+*   SAB_ >> Stack Array Based
+*   SLB_ >> Stack Linked Based
+*/
+
 int main()
 {
+    //move_disks(64,1,3,2);
+    /*  //testing the stack array based
     uint8_t temp1=50,temp2=0;
     Stack_ArrBased MStack;
     SAB_stack_create(&MStack);
@@ -11,4 +23,5 @@ int main()
     SAB_stack_pop(&MStack,&temp2);
     printf("temp2 now = %d\n",temp2);
     return 0;
+    */
 }
