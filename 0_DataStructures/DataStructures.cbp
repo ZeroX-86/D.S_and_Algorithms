@@ -31,6 +31,14 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="PolishNotation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PolishNotation.h" />
+		<Unit filename="Queue_ArrBased.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Queue_ArrBased.h" />
 		<Unit filename="Stack_ArrBased.c">
 			<Option compilerVar="CC" />
 		</Unit>
