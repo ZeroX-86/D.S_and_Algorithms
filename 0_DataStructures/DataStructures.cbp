@@ -39,6 +39,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Queue_ArrBased.h" />
+		<Unit filename="Queue_LinkBased.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Queue_LinkBased.h" />
 		<Unit filename="Stack_ArrBased.c">
 			<Option compilerVar="CC" />
 		</Unit>

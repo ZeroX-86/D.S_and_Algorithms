@@ -14,6 +14,8 @@
 //#include "Stack_ArrBased.h"         //done
 //#include "Stack_LinkBased.h"        //done
 //#include "TowersOfHanoiGame.h"      //done
+//#include "Queue_ArrBased.h"         //done
+//#include "Queue_LinkBased.h"        //done
 int main()
 {
     //move_disks(64,1,3,2);

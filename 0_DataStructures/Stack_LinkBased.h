@@ -5,7 +5,7 @@
 *   SLB_ >> Stack Linked Based
 *   Mahmoud Saad @ZeroX86
 */
-#define MAX_STACK_LENGTH 20
+#define MAX_STACK_LENGTH 20 //NOT IMPORTANT IN THE LINKED BASED
 typedef uint8_t STACK_ENTRY;
 typedef enum
 {

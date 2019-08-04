@@ -135,6 +135,7 @@ SLB_return_t SLB_stack_clear(Stack_LinkBased *ptr_stack)
                 free(ptr_temp);
             }
             ptr_stack->SLB_size=0;
+            return SLB_NO_ERRORS;
         }
         else
         {
