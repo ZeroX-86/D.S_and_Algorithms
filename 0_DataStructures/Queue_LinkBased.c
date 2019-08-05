@@ -74,7 +74,7 @@ QLB_return_t QLB_clear(Queue_LinkBased *ptr_queue)
             QLB_node*ptr_temp;
             while((ptr_temp != NULL) && (ptr_queue->QLB_front != NULL))
             {
-                ptr_temp=ptr_queue->QLB_frontLB_top;
+                ptr_temp=ptr_queue->QLB_front;
                 ptr_queue->QLB_front=ptr_temp->node_next;
                 free(ptr_temp);
             }
@@ -159,7 +159,7 @@ QLB_return_t QLB_retrive(Queue_LinkBased *ptr_queue,QUEUE_ENTRY *ptr_entry)
 }
 QLB_return_t QLB_traverse   (Queue_LinkBased *ptr_queue,void(*ptr_func)(QUEUE_ENTRY))
 {
-    if((ptr_queue != NULL)&&(ptr_entry != NULL))
+    if((ptr_queue != NULL)&&(ptr_func != NULL))
     {
         if(ptr_queue->QLB_InitStatus == true)
         {

@@ -105,7 +105,7 @@ QAB_return_t QAB_queue_retrive(Queue_ArrBased *ptr_queue,QUEUE_ENTRY *ptr_entry)
 }
 QAB_return_t QAB_queue_clear(Queue_ArrBased *ptr_queue)
 {
-    if((ptr_queue != NULL) && (ptr_entry != NULL))
+    if(ptr_queue != NULL)
     {
         if(ptr_queue->QAB_InitStatus == true)
         {

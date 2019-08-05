@@ -9,6 +9,7 @@
 *   SAB_ >> Stack Array Based
 *   SLB_ >> Stack Linked Based
 *   QAB_ >> Queue Array Based
+*   QLB_ >> Queue Linked Based //NOTICE>>the naming conventions are changed a little :)
 */
 
 //#include "Stack_ArrBased.h"         //done
@@ -28,6 +29,6 @@ int main()
     SAB_stack_push(&MStack,&temp1);
     SAB_stack_pop(&MStack,&temp2);
     printf("temp2 now = %d\n",temp2);
-    return 0;
     */
+    return 0;
 }
