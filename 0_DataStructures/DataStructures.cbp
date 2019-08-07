@@ -31,6 +31,14 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Lists_ArrBased.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Lists_ArrBased.h" />
+		<Unit filename="Lists_LinkBased.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Lists_LinkBased.h" />
 		<Unit filename="PolishNotation.c">
 			<Option compilerVar="CC" />
 		</Unit>

@@ -10,6 +10,8 @@
 *   SLB_ >> Stack Linked Based
 *   QAB_ >> Queue Array Based
 *   QLB_ >> Queue Linked Based //NOTICE>>the naming conventions are changed a little :)
+*   LAB_ >> Lists Array Based
+*   LLB_ >> Lists Linked Based
 */
 
 //#include "Stack_ArrBased.h"         //done
@@ -17,6 +19,9 @@
 //#include "TowersOfHanoiGame.h"      //done
 //#include "Queue_ArrBased.h"         //done
 //#include "Queue_LinkBased.h"        //done
+//#include "Lists_ArrBased.h"         //done
+//#include "Lists_LinkBased.h"        //done
+
 int main()
 {
     //move_disks(64,1,3,2);

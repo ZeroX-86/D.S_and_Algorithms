@@ -1,7 +1,6 @@
 # depslib dependency file v1.0
-1564990468 source:d:\msa\2b_or_!2b\algo\d.s_and_algorithms\0_datastructures\main.c
+1565083735 source:d:\msa\2b_or_!2b\algo\d.s_and_algorithms\0_datastructures\main.c
 	"includes.h"
-	"Queue_LinkBased.h"
 
 1564828599 d:\msa\2b_or_!2b\algo\d.s_and_algorithms\0_datastructures\includes.h
 	<stdio.h>
@@ -45,4 +44,10 @@
 
 1564990579 source:d:\msa\2b_or_!2b\algo\d.s_and_algorithms\0_datastructures\queue_linkbased.c
 	"Queue_LinkBased.h"
+
+1565027693 source:d:\msa\2b_or_!2b\algo\d.s_and_algorithms\0_datastructures\lists_arrbased.c
+	"Lists_ArrBased.h"
+
+1565027614 d:\msa\2b_or_!2b\algo\d.s_and_algorithms\0_datastructures\lists_arrbased.h
+	"includes.h"
 
