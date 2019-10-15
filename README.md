@@ -11,10 +11,10 @@ implementing some Data Structures &amp; Algorithms in the C language.
   |                                                                                                                                       
   |-Algorithms                                                                                                                             
   |      |-Sorting                                                                                                                       
-  |      |-Searching
-  |
-  |
-  |-Applications
-          |-A Repository Based On A Stack Array-Based
-          |-A Repository Based On A Stack Linked-Based
-          |-The Polish Notation
+  |      |-Searching                                                                                                                       
+  |                                                                                                                                       
+  |                                                                                                                                       
+  |-Applications                                                                                                                           
+  |      |-A Repository Based On A Stack Array-Based                                                                                     
+  |      |-A Repository Based On A Stack Linked-Based                                                                                     
+  |      |-The Polish Notation                                                                                                           
