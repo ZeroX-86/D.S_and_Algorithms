@@ -1,5 +1,5 @@
 # D.S_and_Algorithms
-implementing some Data Structures & some Algorithms using the C language.                                                                 #ROOt
+implementing some Data Structures & some Algorithms using the C language.                                                                 #ROOt                                                                                                                                     
   |-Data Structures                                                                                                                       
   |      |-Stack Array-Based                                                                                                               
   |      |-Stack Linked-Based                                                                                                             
